@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-const API = "http://localhost:5000/api/canvas";
+// const API = "http://localhost:5000/api/canvas";
+const API = "https://rocketium-backend.vercel.app/api/canvas"
 
 interface Canvas {
   _id: string;

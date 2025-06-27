@@ -8,7 +8,8 @@ import axios from "axios";
 import type { CanvasElement } from "../types";
 import { Square, Circle, Type, Image, Download, RotateCcw, Save } from 'lucide-react';
 
-const API = "http://localhost:5000/api/canvas";
+// const API = "http://localhost:5000/api/canvas";
+const API = "https://rocketium-backend.vercel.app/api/canvas"
 
 function Home() {
   const [canvasId, setCanvasId] = useState("");
